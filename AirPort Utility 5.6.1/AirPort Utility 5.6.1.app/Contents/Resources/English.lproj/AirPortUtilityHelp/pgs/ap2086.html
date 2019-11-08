@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Using multiple base stations in an Ethernet network</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="hatver" content="v2 R8" />
+<meta name="builddefid" content="4111" />
+<meta name="topicid" content="26993" />
+<meta name="keywords" content="DHCP, Setting up an AirPort network, AirPort Extreme" />
+<meta name="description" content="You can set up multiple base stations on the same Ethernet subnet to create a single wireless network." />
+<meta name="template" content="2031" />
+<meta name="pagetype" content="Task" />
+<meta name="project" content="AirPortUtilityHelp" />
+<meta name="release" content="" />
+<meta name="projectcomponent" content="APUtilitySnow" />
+<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../sty/print.css" rel="stylesheet" type="text/css" media="print"/>
+</head>
+
+<body id="apple-pd">
+<!--top navigation area-->
+<div id="navbox" class="gradient">
+<a name="aprt2738"></a>
+<a name="alap10991"></a>
+<a name="alap11032"></a>
+<a name="alap12736"></a>
+<div id="navleftbox">
+<a class="navlink_left" href="help:anchor='access' bookID=AirPort Utility Help">Home</a>
+</div>
+<div id="navrightbox">
+<a class="navlink_right" href="help:anchor='xall' bookID=AirPort Utility Help">Index</a>
+</div>
+</div><!--closes top navigation area-->
+
+<!--page head-->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnap.gif" alt="APUtility" height="32" width="32" />
+</div>
+<div id="pagetitle">
+<h1>Using multiple base stations in an Ethernet network</h1>
+</div>
+</div>
+<!--closes page header-->
+<div id="introbox">
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+You can set up multiple AirPort Extreme Base Stations or Time Capsules to create a single wireless network (known as a “roaming” network).</p>
+</div><!--closes introprimtext-->
+</div> <!--closes introbox -->
+<div id="taskbox">
+
+<div id="taskbox1">
+         <div class="shadow">
+                    <div id="taskframe1">
+                              <div class="taskcontent">
+<h2>To set up a roaming network:</h2>
+<ol id="tasklistnumbered">
+<li>
+<p class="numberparagraph">
+Connect all the base stations and Time Capsules to the same subnet on your Ethernet network and give the same network name and password to each device.</p>
+</li>
+<li>
+<p class="numberparagraph">
+To assign IP addresses to clients on the network using Dynamic Host Configuration Protocol (DHCP), set up one device as the DHCP server. To do this:</p>
+</li>
+<ul id="taskauxlistbulleted">
+<li>
+<p class="listparagraph">
+Open AirPort Utility, located in the Utilities folder in the Applications folder on a computer using Mac OS X, and in Start &gt; All Programs &gt; AirPort on a  Windows computer. Select the device you’re setting up as the DHCP server, and then click Manual Setup.</p>
+<p class="listparagraph">Make sure the device assigns a range of real IP addresses. Private IP addresses used by Network Address Translation (NAT) cannot be used for roaming. Click Internet in the toolbar, click Internet Connection, and then choose “Distribute a range of IP addresses” from the Connection Sharing pop-up menu.</p>
+</li>
+</ul><!--closes taskauxlistbulleted-->
+<li>
+<p class="numberparagraph">
+Set up all of the other base stations as bridges by turning off DHCP and NAT. To do this:</p>
+</li>
+<ul id="taskauxlistbulleted">
+<li>
+<p class="listparagraph">
+In AirPort Utility, select the device you want to set up as a bridge, and then click Manual Setup. Enter the password if necessary.</p>
+<p class="listparagraph">Click Internet in the toolbar, click Internet Connection, and then choose “Off (Bridge Mode)” from the Connection Sharing pop-up menu on the device you want to set up as a bridge.</p>
+</li>
+</ul><!--closes taskauxlistbulleted-->
+</ol>
+
+                                 </div><!--closes taskcontent-->
+                      </div><!--closes taskframe1-->
+           </div><!--closes shadow-->
+</div><!--closes taskbox1-->
+</div><!--closes taskbox -->
+<div id="outrobox">
+<div class="outroprimtext">
+<p class="outroprimtextlongtext">
+If you’re using wireless devices that support 802.11n, you can extend the range of the network by setting up a Dynamic Wireless Distribution System.</p>
+</div><!--closes outroprimtext-->
+</div><!--closes outrobox -->
+<div id="rule">
+<hr />
+</div><!-- closes rule-->
+<div id="linkinternalbox">
+<h3>Related Topics</h3>
+<p class="linkinternal"><a href="help:anchor='ap11953' bookID='AirPort Utility Help'">Extending the range of an 802.11n network <span class="linkarrow"></span></a></p>
+</div><!--closes linkinternalbox-->
+</body>
+</html>
